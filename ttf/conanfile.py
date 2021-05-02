@@ -12,7 +12,7 @@ class Sdl2TtfConan(ConanFile):
     options = {"shared": [True, False], "fPIC": [True, False]}
     default_options = {"shared": False, "fPIC": True}
     generators = [ "cmake_paths", "cmake_find_package" ]
-    requires = [ 'sdl2/2.0', 'freetype/2.10.4' ]
+    requires = [ 'sdl2/2.0.15', 'freetype/2.10.4' ]
 
     def config_options(self):
         if self.settings.os == "Windows":

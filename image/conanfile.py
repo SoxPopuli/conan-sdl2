@@ -13,7 +13,7 @@ class Sdl2ImageConan(ConanFile):
     default_options = {"shared": False, "fPIC": True}
     generators = [ "cmake_paths", "cmake_find_package" ]
     build_requires = [ 'libpng/1.6.37', 'libjpeg/9d', 'zlib/1.2.11', 'libwebp/1.2.0' ]
-    requires = [ 'sdl2/2.0' ]
+    requires = [ 'sdl2/2.0.15' ]
 
     def config_options(self):
         if self.settings.os == "Windows":

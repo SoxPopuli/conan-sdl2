@@ -3,7 +3,7 @@ from conans import ConanFile, CMake, tools
 
 class Sdl2Conan(ConanFile):
     name = "sdl2"
-    version = "2.0"
+    version = "2.0.15"
     license = "zlib"
     author = "SoxPopuli"
     url = "https://github.com/libsdl-org/SDL"
